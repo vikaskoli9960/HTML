@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML- input type html</title>
+    <style>
+        body {
+            font-family: system-ui,sans-sarif;
+        }
+        form {
+            width: 80%;
+            margin: 10%auto;
+            background: #1a7de0
+            padding 16px;
+        }
+        h1 {
+            margin: 0%
+        }
+        input {
+                width: 100%;
+            }
+            input[type-image] {
+                width: auto;
+            }
+            input[type=radio],
+            input[type=checkbox] {
+                width: 48px;
+            }
+                </style>
+</head>
+<body>
+    <form action="thankyou.html">
+        <h1><b>ADMITION FORM:</b></h1>
+        <p>
+            <input type="text" placeholder="please enter your name">
+
+        </p>
+        <p>
+            <input type="tel" placeholder="please enter your phone numbar">
+
+        </p>
+        <p>
+            <input type="email" placeholder="please enter your email address">
+
+        </p>
+        <p>
+            <h4>Please Select Your Birthdate:</h4>
+            <input type="date" name="id">
+        </p>
+        <p>
+            <lebal>Gender:</lebal>
+        <table>
+            <tr>
+                <td>
+                    <input type="radio" name="gander" value="male"> 
+                </td>
+                <td>male</td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="radio" name="gander" value="female">
+                </td>
+                <td>female</td>
+            </tr>
+        </table>
+        </p>
+        <p>
+            <h4>Please Select Your Subjects:</h4>
+            <input type="checkbox" name="html" id=""> HTML <br>
+            <input type="checkbox" name="css" id=""> CSS <br>
+            <input type="checkbox" name="js" id=""> JS <br>
+            <input type="checkbox" name="java" id=""> Java <br>
+        </p>
+        <p>
+            <label for="week">week:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            </label>
+            <input type="week" id="week">
+        </p>
+        <p>
+            <label for="month">month:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+            <input type="month">
+        </p>
+        <p>
+            <label for="datetime"dateTime>date time:&nbsp;</label>
+            <input type="datetime-local" id="date">
+        </p>
+        <p>
+            <label for="password">password:&nbsp;&nbsp;
+            <input type="password" id="Password" placeholder="please enter your assword">
+        </p>
+        <p>
+            <label for="numbar">numbar:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+            <input type="numbar" id="numbar" please enter your numbar>
+        </p>
+        <p>
+            <label for="time">time:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+            <input type="time"  id="time">
+        </p>
+        <p>
+            <label for="list">list:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+            <input list="country" placeholder="please select your country">
+            <datalist id="country">
+                <option value="japan"></option>
+                <option value="indoneshia"></option>
+                <option value="india"></option>
+                <option value="china"></option>
+                <option value="nepal"></option>
+                <option value="USA"></option>
+                </datalist>
+        </p>
+        <p>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="submit" id="submit">
+        </p>
+        </form>
+</body>
+</html>

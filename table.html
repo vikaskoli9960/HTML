@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>HTML - table</title>
+    <style>
+        body {
+            font-family: system-ui;
+        }
+        table {
+            border: 1px solid;
+            border-collapse: collapse;
+            margin-bottom: 40px;
+        }
+        td, th {
+            padding:5px;
+            border:1px solid
+        }
+        th {
+            background: rgb(154, 245, 217);
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <th>name</th>
+            <th>email</th>
+            <th>city</th>
+        </tr>
+        <tr>
+            <td>akash kalyan</td>
+            <td>akashkalyan112@gmail.com</td>
+            <td>pune</td>
+        </tr>
+        <tr>
+            <td>shrikant kale</td>
+            <td>shriksntksle333@gmail.com</td>
+            <td>nashik</td>
+        </tr>
+        <tr>
+            <td>sagar bansode</td>
+            <td>sagarbansode222@gmail.com</td>
+            <td>akkalkot</td>
+        </tr>
+    </table>
+    <table>
+        <tr>
+            <th colspan="2">name and email</th>
+            <th>city</th>
+        </tr>
+        <tr>
+            <td rowspan="2">akash kalyan</td>
+            <td>akashkalyan112@gmail.com</td>
+            <td>pune</td>
+        </tr>
+        <tr>
+            <td>shrikantkale333@gmail.com</td>
+            <td>nashik</td>
+        </tr>
+        <tr>
+            <td>sagar banasode</td>
+            <td>sagarbansode222@gmail.com</td>
+            <td>akkalkot</td>
+        </tr>
+    </table>
+    <table>
+        <colgroup>
+        <col spam="2" style="background: rgba(red, green, blue, alpha);">
+        <col style="background:white;">
+        </colgroup>
+        <tr>
+            <th>name</th>
+            <th>email</th>
+            <th>city</th>
+        </tr>
+        <tr>
+            <td>akash kalyan</td>
+            <td>akashkalyan112@gmail.com</td>
+            <td>pune</td>
+        </tr>
+        <tr>
+            <td>shrikant kale</td>
+            <td>shrikantkale333@gmail.com</td>
+            <td>nsshik</td>
+        </tr>
+        <tr>
+            <td>sagar bansode</td>
+            <td>sagarbansode222@gmail.com</td>
+            <td>akkalkot</td>
+        </tr>
+    </table>
+</body>

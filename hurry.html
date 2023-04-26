@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML - Input Form Attributes</title>
+</head>
+<body>
+    <form action="thankyou.html" id="login" method="post" enctype="multipart/form-data" target="_self">
+        <p>
+            <input type="text" placeholder="Please enter your username" name="username" required>
+        </p>
+        <p>
+            <input type="password" placeholder="Please enter your password" name="password" required>
+        </p>
+        <p>
+            <input type="submit" value="Submit" formenctype="multipart/form-data">
+            <input type="submit" value="Get data" formmethod="get" formaction="error.html" formtarget="_self" formnovalidate>
+        </p>
+    </form>
+
+    <input type="text" placeholder="Please enter your Phone number" name="number" form="login">
+</body>
+</html>
