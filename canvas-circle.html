@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background: lightgreen;
+        }
+        canvas {
+            background: rgb(189, 76, 237);
+            margin: 10% auto;
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    
+    <canvas width="200" height="200"></canvas>
+
+    <script>
+        let canvas = document.querySelector('canvas')
+        let line = canvas.getContext('2d')
+        line.beginPath()
+        line.arc(100, 100, 50, 0, 7)
+        line.fillStyle = 'red'
+        line.fill()
+        line.stroke()
+    </script>
+</body>
+</html>
